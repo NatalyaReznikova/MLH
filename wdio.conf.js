@@ -17,12 +17,15 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/smoke/*.js'
+        './test/smoke/inputs.js',
+        './test/smoke/labels.js',
+        './test/smoke/mainFunctionality.js'
 
     ],
     // Patterns to exclude.
     exclude: [
-        // 'path/to/excluded/files'
+        './test/smoke/inputs.js',
+        './test/smoke/labels.js'
     ],
     //
     // ============
