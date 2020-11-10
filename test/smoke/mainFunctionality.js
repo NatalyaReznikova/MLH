@@ -1,5 +1,6 @@
 const sel = require ('../../data/selectors.json');
 const data = require ('../../data/testData.json');
+const expected = require('../../data/expected.json');
 const inputValues4 = require ('../../helpers/inputValues4');
 
 describe('Checking the main functionality', function () {
